@@ -224,7 +224,7 @@ exports.book_delete_get = (req, res) => {
   );
 };
 
-// Handle Author delete on POST.
+// Handle Book delete on POST.
 exports.book_delete_post = (req, res, next) => {
   async.parallel(
     {
